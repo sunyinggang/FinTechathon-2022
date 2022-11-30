@@ -1,0 +1,9 @@
+OpenJDK 64-Bit Server VM (25.342-b07) for linux-amd64 JRE (1.8.0_342-8u342-b07-0ubuntu1~20.04-b07), built on Jul 23 2022 16:13:07 by "buildd" with gcc 9.4.0
+Memory: 4k page, physical 7812392k(7385288k free), swap 2097152k(2097152k free)
+CommandLine flags: -XX:+HeapDumpOnOutOfMemoryError -XX:InitialHeapSize=2147483648 -XX:MaxHeapSize=2147483648 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseParallelGC 
+2022-11-28T11:06:51.369+0800: 4.707: [GC (Metadata GC Threshold) [PSYoungGen: 335877K->15525K(611840K)] 335877K->15613K(2010112K), 0.0143118 secs] [Times: user=0.08 sys=0.04, real=0.02 secs] 
+2022-11-28T11:06:51.384+0800: 4.722: [Full GC (Metadata GC Threshold) [PSYoungGen: 15525K->0K(611840K)] [ParOldGen: 88K->14671K(1398272K)] 15613K->14671K(2010112K), [Metaspace: 20487K->20484K(1069056K)], 0.0337994 secs] [Times: user=0.26 sys=0.00, real=0.03 secs] 
+2022-11-28T11:06:56.125+0800: 9.463: [GC (Metadata GC Threshold) [PSYoungGen: 453135K->17514K(611840K)] 467807K->32202K(2010112K), 0.0198063 secs] [Times: user=0.11 sys=0.07, real=0.02 secs] 
+2022-11-28T11:06:56.146+0800: 9.484: [Full GC (Metadata GC Threshold) [PSYoungGen: 17514K->0K(611840K)] [ParOldGen: 14687K->22378K(1398272K)] 32202K->22378K(2010112K), [Metaspace: 33584K->33584K(1081344K)], 0.0326654 secs] [Times: user=0.12 sys=0.03, real=0.03 secs] 
+2022-11-28T15:08:58.302+0800: 14531.641: [GC (Allocation Failure) [PSYoungGen: 524800K->11920K(611840K)] 547178K->34322K(2010112K), 0.2739206 secs] [Times: user=2.26 sys=0.00, real=0.27 secs] 
+2022-11-29T20:23:09.640+0800: 85102.009: [GC (Allocation Failure) [PSYoungGen: 536720K->9743K(611840K)] 559122K->32162K(2010112K), 0.4306121 secs] [Times: user=4.31 sys=0.00, real=0.43 secs] 

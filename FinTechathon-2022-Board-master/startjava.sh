@@ -1,0 +1,2 @@
+cd /home/bobo/board/FATE-Board
+java -Dspring.config.location=./src/main/resources/application.properties -DFATE_DEPLOY_PREFIX=./logs/ -Dssh_config_file=./src/main/resources/ -Xmx2048m -Xms2048m -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xloggc:gc.log -XX:+HeapDumpOnOutOfMemoryError -jar ./target/fateboard-1.8.0.jar
